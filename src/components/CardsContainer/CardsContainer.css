@@ -1,0 +1,6 @@
+.cards-container {
+  height: 87.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
