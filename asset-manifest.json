@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hug-booth/static/css/main.50514180.css",
+    "main.js": "/hug-booth/static/js/main.fe1db42a.js",
+    "index.html": "/hug-booth/index.html",
+    "main.50514180.css.map": "/hug-booth/static/css/main.50514180.css.map",
+    "main.fe1db42a.js.map": "/hug-booth/static/js/main.fe1db42a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50514180.css",
+    "static/js/main.fe1db42a.js"
+  ]
+}
