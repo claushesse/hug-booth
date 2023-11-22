@@ -18,7 +18,7 @@ function App() {
       )} with keycode ${event.keyCode} has been pressed`
     );
     const keyNumber = Number(event.key);
-    if (!isNaN(keyNumber) && keyNumber > 0 && keyNumber < 8) {
+    if (!isNaN(keyNumber) && keyNumber > 0 && keyNumber < 9) {
       setSelectedCard(keyNumber);
     } else if (!isNaN(keyNumber) && keyNumber === 0) {
       setSelectedCard(null);
