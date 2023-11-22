@@ -10,13 +10,6 @@ function App() {
   const [countDirection, setCountDirection] = useState(1);
 
   document.addEventListener("keydown", (event) => {
-    console.log(
-      `Key: ${
-        event.key
-      } and typeof ${typeof event.key} and Number(event.key) ${Number(
-        event.key
-      )} with keycode ${event.keyCode} has been pressed`
-    );
     const keyNumber = Number(event.key);
     if (!isNaN(keyNumber) && keyNumber > 0 && keyNumber < 9) {
       setSelectedCard(keyNumber);
