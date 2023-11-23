@@ -39,7 +39,9 @@ function App() {
 
   return (
     <div>
-      {selectedCard === 8 && <Confetti width={width} height={height} />}
+      {selectedCard === 8 && (
+        <Confetti width={width} height={height} colors={["#eac102"]} />
+      )}
       <div className="title">HUG RATE</div>
       <CardsContainer>
         {steps.map((step) => {
