@@ -3,11 +3,14 @@ import "./App.css";
 import { CardsContainer } from "./components/CardsContainer/CardsContainer";
 import { Card } from "./components/Card/Card";
 import { steps } from "./utils";
+import { useWindowSize } from "react-use";
+import Confetti from "react-confetti";
 
 function App() {
   const [lastCard, setLastCard] = useState(0);
   const [selectedCard, setSelectedCard] = useState(null);
   const [countDirection, setCountDirection] = useState(1);
+  const { width, height } = useWindowSize();
 
   document.addEventListener("keydown", (event) => {
     const keyNumber = Number(event.key);
@@ -36,6 +39,7 @@ function App() {
 
   return (
     <div>
+      {selectedCard === 8 && <Confetti width={width} height={height} />}
       <div className="title">HUG RATE</div>
       <CardsContainer>
         {steps.map((step) => {
