@@ -35,7 +35,7 @@ export const steps = [
     id: 1,
   },
   {
-    name: "HUG YOU SERIOUS!",
+    name: "HUG YOU SERIOUS?",
     color: "hsl(0 0% 65%)",
     id: 0,
   },

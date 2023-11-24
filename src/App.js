@@ -29,7 +29,7 @@ function App() {
         setCountDirection(1);
       }
       setLastCard((prevLastCard) => prevLastCard + countDirection);
-    }, 300);
+    }, 600);
     if (selectedCard) {
       clearInterval(interval);
     }
