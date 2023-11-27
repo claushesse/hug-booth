@@ -40,7 +40,12 @@ function App() {
   return (
     <div>
       {selectedCard === 8 && (
-        <Confetti width={width} height={height} colors={["#eac102"]} />
+        // <Confetti width={width} height={height} colors={["#eac102"]} />
+        <Confetti
+          width={width}
+          height={height}
+          colors={["#000000", "#FFFFFF"]}
+        />
       )}
       <div className="title">HUG RATE</div>
       <CardsContainer>
