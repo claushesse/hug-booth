@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/hug-booth/static/css/main.46b71b4b.css",
-    "main.js": "/hug-booth/static/js/main.9ce8d933.js",
+    "main.js": "/hug-booth/static/js/main.7950f5c2.js",
     "index.html": "/hug-booth/index.html",
     "main.46b71b4b.css.map": "/hug-booth/static/css/main.46b71b4b.css.map",
-    "main.9ce8d933.js.map": "/hug-booth/static/js/main.9ce8d933.js.map"
+    "main.7950f5c2.js.map": "/hug-booth/static/js/main.7950f5c2.js.map"
   },
   "entrypoints": [
     "static/css/main.46b71b4b.css",
-    "static/js/main.9ce8d933.js"
+    "static/js/main.7950f5c2.js"
   ]
 }
