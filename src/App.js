@@ -39,14 +39,13 @@ function App() {
 
   return (
     <div>
-      {selectedCard === 8 && (
-        // <Confetti width={width} height={height} colors={["#eac102"]} />
+      {/* {selectedCard === 8 && (
         <Confetti
           width={width}
           height={height}
           colors={["#000000", "#FFFFFF"]}
         />
-      )}
+      )} */}
       <div className="title">HUG RATE</div>
       <CardsContainer>
         {steps.map((step) => {
@@ -57,6 +56,7 @@ function App() {
               color={step.color}
               opacity={step.id <= lastCard || !!selectedCard ? 1 : 0}
               selected={selectedCard - 1 === step.id}
+              id={step.id}
             />
           );
         })}
